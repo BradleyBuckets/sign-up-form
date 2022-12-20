@@ -72,6 +72,7 @@ p{
 
 .formContainer {
     flex: 4;
+    padding: 1rem 0;
 }
 
 .foot{
@@ -120,4 +121,15 @@ input {
 h2 {
     margin: 0;
     padding: 1rem;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.submit {
+    height: 2rem;
+    grid-column: 2 / span 2;
+    margin: 1rem;
 }
