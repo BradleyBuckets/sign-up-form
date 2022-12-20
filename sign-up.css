@@ -132,4 +132,7 @@ h2 {
     height: 2rem;
     grid-column: 2 / span 2;
     margin: 1rem;
+    background-color: cornflowerblue;
+    border: 0;
+    border-radius: .5rem;
 }
